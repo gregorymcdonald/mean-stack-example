@@ -1,0 +1,16 @@
+{
+  "name": "mean-stack-example",
+  "version": "0.0.0",
+  "description": "An simple TODO app using the MEAN stack, courtesy of a tutorial by scotch.io. Requires MongoDB to be installed and running. Use command 'mongod --dbpath=./data --port 27017' to start a database in a separate console window.",
+  "main": "server.js",
+  "author": "Greg McDonald",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "bower": "^1.7.9",
+    "express": "^4.13.4",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1"
+  },
+  "license": "MIT"
+}
