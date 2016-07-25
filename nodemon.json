@@ -1,0 +1,17 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules",
+    "data"
+  ],
+  "verbose": true,
+  "watch": [
+    "app",
+    "nodemon.json",
+    "server.js"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
